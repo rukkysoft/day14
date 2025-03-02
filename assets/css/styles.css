@@ -1,0 +1,128 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #00ff00;
+    color: white;
+}
+/* Logo styling */
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0 20px;
+}
+.navbar .container .logo img{
+    height: 50px;
+    width: auto;
+    display: flex;
+}
+.navbar .about section .about h1{
+    display: flex;
+    background-color: brown;
+}
+.logo img{
+    height: 50px;
+    width: auto;
+    display: block;
+}
+
+.footer {
+    background: black;
+    color: white;
+    padding: 60px 20px;
+    text-align: justify;
+}
+
+.footer .footer-container {
+    display: flex;
+    align-items: flex start;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin:auto;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+.footer .footer-container .footer-colum{
+    flex:1;
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+.navbar{
+    background-color:rgba(red, green, rgb(30, 30, 100), alpha);
+}
+.hero {
+    background-color: blue;
+    color: crimson;
+    padding:50px 20px;
+    text-align: justify;
+}
+.hero .hero-content .btn {
+    color: white;
+}
+.hero .hero-img{
+    height: 70px;
+    display: auto;
+}
+.about {
+    background-color:crimson ;
+    color:seashell;
+    padding: 50px 20px;
+    text-align: justify;
+}
+.about h2{
+    color: yellow;
+}
+.section-dark {
+    
+    color: blue;
+}
+.section {
+    background-color: blueviolet;
+    color: #00ff00;
+    padding: 30px 20px;
+}
+.section .testimonial-img{
+    height: 70px;
+    display: auto;
+}
+.section h2 {
+    color: black;
+}
+.section .testimonial-1{
+    margin-bottom: 30px;
+    background-color: #00ff00;
+    color: blue;
+}
+.section .testimonial-2{
+    margin-bottom: 30px;
+    background-color: #00ff00;
+    color: blue;
+}
+.section .testimonial-3{
+    margin-bottom: 30px;
+    background-color: #00ff00;
+    color: blue;
+}
+.section .testimonial-4{
+    margin-bottom: 30px;
+    background-color: #00ff00;
+    color: blue;
+}
+.section .testimonial-5{
+    margin-bottom: 30px;
+    background-color: #00ff00;
+    color: blue;
+}
+.section .testimonial-6{
+    margin-bottom: 30px;
+    background-color: #00ff00;
+    color: blue;
+}
+.cta .cta-container{
+    background-color: crimson;
+    color: gold;
+    padding: 20px;
+}
